@@ -19,7 +19,7 @@ h1 {
 }
 h2 {
   text-align: center;
-  color: slategray;
+  color: gray;
 }
 .top-nav {
   list-style: none;
@@ -40,7 +40,7 @@ h2 {
     padding: .5em;
     text-decoration: none;
     border-bottom: 0;
-    color: slategray;
+    color: deeppink;
     background-color:gray;
 
 }
@@ -61,9 +61,27 @@ aside#sidebar {
   margin: 1em;
   border: dashed 2px gray;
   background: pink;
+  line-height: 150%;
  }
+#sidebar  a {
+    text-decoration: none;
+    color: indigo;
+}
+#sidebar a:hover {
+    background: skyblue; 
+    text-decoration:none;
+}
+
+#sidebar a:visited {
+    color: purple;
+    text-decoration: none;
+}
+
 #sidebar ul {
    list-style: none;
+ }
+#sidebar li {
+  display: inline
 }
 .bio-photo {
   padding: 1em;
@@ -103,19 +121,31 @@ table#selected_works tr, td, th {
   margin-right: <250px;
   line-height: 150%;
 }
-.twitter img {
-    width: 3em;
-    height: auto;
+#content  a {
+    text-decoration: none;
+    color: indigo;
+}
+#content a:hover {
+    background: skyblue; 
+    text-decoration:none;
 }
 
-.facebook img {
-    width: 3em;
-    height: auto;
+#content a:visited {
+    color: purple;
+    text-decoration: none;
+}
+.smalltext  a {
+    text-decoration: none;
+    color: deeppink;
+}
+.smalltext a:hover {
+    background: skyblue; 
+    text-decoration:none;
 }
 
-.pinterest img {
-    width: 3em;
-    height: auto;
+.smalltext a:visited {
+    color: pink;
+    text-decoration: none;
 }
 
 .email img {
@@ -140,7 +170,7 @@ table#selected_works tr, td, th {
     padding: .5em;
     text-decoration: none;
     border-bottom: 0;
-    color: slategray;
+    color: deeppink;
     background-color:gray;
 
 }
@@ -159,7 +189,7 @@ table#selected_works tr, td, th {
 }
 .bibliography li a {
     text-decoration: none;
-    color: slategray;
+    color: deeppink;
 }
 .bibliography li a:hover {
     background: skyblue; 
@@ -169,3 +199,4 @@ table#selected_works tr, td, th {
 .bibliography li a:visited {
     color: pink;
     text-decoration: none;
+}
