@@ -1,1 +1,171 @@
 /* Styles for the Advanced Markup assignment. */
+body {
+  border: dashed 2px pink;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: ivory;
+ }
+  
+
+h1 {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 250%;
+  text-align: center;
+  border: dashed gray;
+  padding: 1em;
+  color: gray;
+  background: pink;
+  margin: 1em;
+}
+h2 {
+  text-align: center;
+  color: slategray;
+}
+.top-nav {
+  list-style: none;
+  height: 2em;
+  padding: 0;
+  margin: 1em;
+  border-bottom: solid 2px gray;
+  
+}
+.top-nav li {
+    float: left;
+    margin-right: .5em;
+    margin-bottom: 1em;
+ 
+}
+.top-nav li a {
+    display: block;
+    padding: .5em;
+    text-decoration: none;
+    border-bottom: 0;
+    color: slategray;
+    background-color:gray;
+
+}
+.top-nav li a:hover {
+    background: skyblue; 
+    text-decoration:none;
+}
+
+.top-nav li a:visited {
+    color: pink;
+    text-decoration: none;
+}
+
+aside#sidebar {
+  padding: 1em;
+  float: right;
+  width: 200px;
+  margin: 1em;
+  border: dashed 2px gray;
+  background: pink;
+ }
+#sidebar ul {
+   list-style: none;
+}
+.bio-photo {
+  padding: 1em;
+  float: left;
+  width: 250px;
+  Height: auto;
+  margin: 1em;
+  border: dashed 2px gray;
+  background: pink;
+}
+.poem {
+  list-style: none;
+  line-height: 150%;
+}
+
+table#selected_works{
+  border: solid 1px black;
+  padding; 1em;
+
+}
+table#selected_works tr, td, th {
+  border: solid 1px black;
+  padding: .5em;
+  background: lightgray;
+
+  
+}
+#content {
+  width: 750px;
+  padding: 1em;
+
+}
+#content h2 {
+  text-align: center
+}
+#content p {
+  margin-right: <250px;
+  line-height: 150%;
+}
+.twitter img {
+    width: 3em;
+    height: auto;
+}
+
+.facebook img {
+    width: 3em;
+    height: auto;
+}
+
+.pinterest img {
+    width: 3em;
+    height: auto;
+}
+
+.email img {
+    width: 3em;
+    height: auto;
+}
+.bottom-nav {
+  list-style: none;
+  height: 2em;
+  padding: 0;
+  margin: 1em;
+  border-top: solid 2px gray;
+  
+}
+.bottom-nav li {
+    float: left;
+    margin-right: .5em
+ 
+}
+.bottom-nav li a {
+    display: block;
+    padding: .5em;
+    text-decoration: none;
+    border-bottom: 0;
+    color: slategray;
+    background-color:gray;
+
+}
+.bottom-nav li a:hover {
+    background: skyblue; 
+    text-decoration:none;
+}
+
+.bottom-nav li a:visited {
+    color: pink;
+    text-decoration: none;
+}
+.bibliography {
+    list-style: square;
+    color: gray;
+}
+.bibliography li a {
+    text-decoration: none;
+    color: slategray;
+}
+.bibliography li a:hover {
+    background: skyblue; 
+    text-decoration:none;
+}
+
+.bibliography li a:visited {
+    color: pink;
+    text-decoration: none;
