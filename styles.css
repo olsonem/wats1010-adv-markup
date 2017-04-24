@@ -5,7 +5,9 @@ body {
   margin-right: 10%;
   background: ivory;
  }
-  
+ a.active {
+  font-weight: bold;
+} 
 
 h1 {
   font-family: Impact, Charcoal, sans-serif;
